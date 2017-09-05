@@ -1,0 +1,14 @@
+body {
+    background-color: darkgray;
+}
+div {
+    width: 666px;
+    height: 666px;
+    border: 6px solid royalblue;
+    display: inline-block;
+    background-image: url("../../inclass/ghost.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
