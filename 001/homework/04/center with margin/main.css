@@ -1,0 +1,13 @@
+body {
+
+    background-color: darkolivegreen;
+    margin: 0 auto;
+    padding:25px;
+}
+
+div {
+    background-color: lightgreen;
+    border: inset 12px lightblue;
+    margin: 10px;
+    padding: 30px;
+}
