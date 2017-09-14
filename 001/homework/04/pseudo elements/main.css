@@ -1,0 +1,39 @@
+div {
+    background-color: lightgray;
+    margin: auto;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+p::first-letter {
+    font-size: larger;
+}
+
+p::first-line {
+    font-style: oblique;
+}
+
+div p {
+
+    border:groove darkgoldenrod 6px;
+    margin: auto;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+
+}
+
+div > p {
+    background-color: lightgreen;
+}
+
+div ~ p {
+background-color: darkolivegreen;
+}
+
+div + p {
+    color: deeppink;
+}
