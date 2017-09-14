@@ -1,0 +1,14 @@
+body {
+    background-color: darkolivegreen;
+}
+
+div {
+    display: inline-block;
+    margin: 10px;
+    padding: 100px;
+    border: dashed 3px lightcoral;
+    width: 200px;
+    height: 200px;
+}
+
+div
