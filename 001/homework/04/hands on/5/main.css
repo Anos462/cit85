@@ -1,0 +1,7 @@
+p:first-letter {
+font-size: 24px;
+}
+
+p:first-line{
+    font-weight: bold;
+}
