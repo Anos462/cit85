@@ -5,17 +5,35 @@ html, body, header, div {
     font: inherit;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: #0ebfe9;
+    border-bottom: 1px solid lightgreen;
+}
 
-div {
-    height: 100vh;
+header > div {
+    padding: 10px 30px;
+    font-size: 22px;
+    color: darkolivegreen;
+}
+
+main {
+    background-image: url("paradise.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 8vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;  
-    align-content: center;
-    background-image: url("paradise.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+}
+
+main {
+    height: 100vw;
 }

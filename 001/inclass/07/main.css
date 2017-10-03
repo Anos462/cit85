@@ -1,0 +1,23 @@
+html, body, header, div, main {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body   {
+    border: solid forestgreen;
+
+}
+
+div {
+
+    border: solid red;
+    padding: 10px;
+    margin: 10px;
+}
+
+.s1, .s2, .s3, .s4, .s5 {
+    width: 100%;
+min-height: 200px;
+    display: flex;
+}
