@@ -1,0 +1,12 @@
+div {
+    border: solid red 4px;
+    background-color: lightgray;
+    margin: 15px;
+    padding: 15px;
+    float: left;
+}
+
+div#bottom {
+    clear: both;
+    width: 80vw;
+}

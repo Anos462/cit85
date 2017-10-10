@@ -1,0 +1,17 @@
+div, img {
+    border: solid royalblue 6px;
+    margin: 20px;
+}
+
+
+div {
+    overflow: auto;
+}
+
+#right {
+    float: right;
+}
+
+#left {
+    float: left;
+}

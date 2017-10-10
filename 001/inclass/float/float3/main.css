@@ -1,0 +1,17 @@
+div {
+    background-color: darkslategray;
+    float: left;
+    border: solid 1vw red;
+    margin: 10vw;
+
+}
+
+div#top {
+    background-color: darkolivegreen;
+    clear: both;
+}
+
+div#bottom {
+background-color: forestgreen;
+    clear: both;
+}
