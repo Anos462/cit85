@@ -1,0 +1,7 @@
+div {
+    border: red 10px solid;
+    display: flex;
+    height: 10vh;
+    width: 10vw;
+
+}
