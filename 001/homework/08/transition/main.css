@@ -3,5 +3,25 @@ div {
     display: flex;
     height: 10vh;
     width: 10vw;
+    background-color: yellow;
+    transition-duration: 1s;
+    transition-property: background-color;
+    transition-timing-function: ease-in-out;
 
+}
+
+div:hover {
+    background-color: chocolate;
+}
+
+img {
+    animation-name: sample;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sample {
+    0% { transform: rotate(0deg);}
+    100% { transform: rotate(360deg);}
 }
