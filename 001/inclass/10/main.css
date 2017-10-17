@@ -1,0 +1,23 @@
+div {
+    width: 100vw;
+    height: 20vh;
+}
+
+
+
+div #1 {
+    color: forestgreen;
+}
+div #2 {
+    color: darkolivegreen;
+}
+
+div #3 {
+    color: royalblue;
+}
+div #4 {
+    color: lightgreen;
+}
+div #5 {
+    color: darkslategray;
+}
