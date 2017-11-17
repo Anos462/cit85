@@ -1,0 +1,10 @@
+main > div {
+    width: 66vw;
+    height: 66vh;
+    border: 6px solid royalblue;
+    background-image: url("../../inclass/ghost.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
