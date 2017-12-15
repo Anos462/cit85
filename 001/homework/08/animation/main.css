@@ -1,0 +1,15 @@
+h1 {
+    
+}
+.animatedText {
+    animation: scale 1s ease-in;
+}
+
+@keyframes scale {
+    from {
+        transform: scale3d(.75, .75, 1);
+    }
+    to {
+        transform: scale3d(1, 1, 1);
+    }
+}

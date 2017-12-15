@@ -8,3 +8,17 @@ main > div {
     background-size: cover;
     border-radius: 50%;
 }
+
+p {
+
+    font-size: 33px;
+    color: ghostwhite;
+    text-align: center;
+    width: 66vw;
+    height: 66vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 40%;
+    text-shadow: 2px 2px black;
+}

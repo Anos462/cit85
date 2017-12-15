@@ -1,0 +1,39 @@
+html, body, h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+}
+body {
+    background-color: #666666;
+    height: 100vh;
+    width: 100vh;
+}
+
+
+#fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    height: 100px;
+    background-color: #0ebfe9;
+}
+
+#relative {
+    position: relative;
+    top: 10%;
+    left: 10%;
+    width: 100px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+#absolute {
+    position: absolute;
+    right: 80%;
+    Bottom: 20%;
+    background-color: #348AC7;
+    width: 60px;
+    height: 40px;
+}
